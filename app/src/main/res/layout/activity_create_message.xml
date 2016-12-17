@@ -30,4 +30,15 @@
         android:layout_below="@+id/send"
         android:layout_marginTop="18dp"
         android:ems="10"/>
+
+    <Button
+        android:text="@string/trzeci"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message"
+        android:layout_alignLeft="@+id/message"
+        android:layout_alignStart="@+id/message"
+        android:onClick="onThreActivity"
+        android:id="@+id/button3" />
+
 </RelativeLayout>
